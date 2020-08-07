@@ -23,7 +23,7 @@ include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()''')
 
     def build_requirements(self):
-        self.requires("Plants/0.1.0@aev25/stable")
+        self.build_requires("Plants/0.1.0@aev25/stable")
         
 
     def export(self):
